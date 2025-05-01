@@ -1,4 +1,7 @@
 { "commands": [
-
+{ "hdr": "713", "rax": "77D", "proto": "15765-4-11bit", "cmd": {"22": "2B29"}, "freq": 0.25,
+  "signals": [
+    {"id": "GCLASS_STEER_ANGLE", "path": "Control", "fmt": {"bix": 72, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+  ]}
 ]
 }
