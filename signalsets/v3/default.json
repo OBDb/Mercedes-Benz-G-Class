@@ -1,12 +1,12 @@
 { "commands": [
-{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "dbg": true, "cmd": {"22": "2001"}, "freq": 0.25,
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "2001"}, "freq": 0.25,
   "signals": [
     {"id": "GCLASS_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "GCLASS_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
     {"id": "GCLASS_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "GCLASS_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "proto": "15765-4-11bit", "dbg": true, "cmd": {"22": "2002"}, "freq": 0.25,
+{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "2002"}, "freq": 0.25,
   "signals": [
     {"id": "GCLASS_LNG_G",       "path": "Orientation", "fmt": {"bix": 8,   "len": 16, "max": 0.17,   "min": -0.17,             "div": 192747,      "sign": true, "unit": "gravity" }, "name": "Longitudinal acceleration"},
     {"id": "GCLASS_LAT_G",       "path": "Orientation", "fmt": {"bix": 24,  "len": 16, "max": 52.21,  "min": -52.21,            "div": 627.6,       "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"},
