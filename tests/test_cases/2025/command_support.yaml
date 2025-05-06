@@ -48,13 +48,29 @@ supported_commands_by_ecu:
   - 01A6:ODO
 unsupported_commands_by_ecu:
   DB33:
+  - DB33.0101
   - DB33.0103
+  - DB33.0104
+  - DB33.0105
   - DB33.010D
+  - DB33.011C
   - DB33.011F
+  - DB33.0121
+  - DB33.012E
   - DB33.012F
+  - DB33.0130
   - DB33.0131
+  - DB33.0133
+  - DB33.013C
   - DB33.0142
+  - DB33.0143
+  - DB33.0144
+  - DB33.0146
+  - DB33.014C
   - DB33.015B
+  - DB33.0162
+  - DB33.0163
+  - DB33.018E
   - DB33.019D
   - DB33.019E
   - DB33.01A6
