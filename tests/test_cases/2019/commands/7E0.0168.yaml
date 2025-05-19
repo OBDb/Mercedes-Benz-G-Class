@@ -1,0 +1,20 @@
+command_id: 7E0.0168
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8100941680947FFFF
+    7E82146FFFFAAAAAAAA
+  expected_values:
+    IAT_11: 31
+    IAT_11_SUP: 1
+    IAT_12: 215
+    IAT_12_SUP: 0
+    IAT_13: 215
+    IAT_13_SUP: 0
+    IAT_21: 30
+    IAT_21_SUP: 1
+    IAT_22: 215
+    IAT_22_SUP: 0
+    IAT_23: 215
+    IAT_23_SUP: 0
