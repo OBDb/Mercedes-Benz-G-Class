@@ -1,0 +1,18 @@
+command_id: DB33.0168
+test_cases:
+- response: |-
+    18DAF15810094168074A4B42
+    18DAF15821FFFFFFAAAAAAAA
+  expected_values:
+    IAT_11: 34
+    IAT_11_SUP: 1
+    IAT_12: 35
+    IAT_12_SUP: 1
+    IAT_13: 26
+    IAT_13_SUP: 1
+    IAT_21: 215
+    IAT_21_SUP: 0
+    IAT_22: 215
+    IAT_22_SUP: 0
+    IAT_23: 215
+    IAT_23_SUP: 0
