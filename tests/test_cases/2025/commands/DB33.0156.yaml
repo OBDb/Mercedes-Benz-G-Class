@@ -1,5 +1,5 @@
 command_id: DB33.0156
 test_cases:
-- response: 18DAF1580341567F
-  expected_values:
+- expected_values:
     LGSO2FT1: -0.78125
+  response: 18DAF1580341567F

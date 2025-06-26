@@ -1,7 +1,6 @@
 command_id: 7E0.016C
 test_cases:
-- response: 7E807416C0F03020302
-  expected_values:
+- expected_values:
     CTAC_A_SUP: 1
     CTAC_B_SUP: 1
     RTP_A_SUP: 1
@@ -10,3 +9,4 @@ test_cases:
     TAC_B_CMD: 1.17647
     TP_A_REL: 0.78431
     TP_B_REL: 0.78431
+  response: 7E807416C0F03020302

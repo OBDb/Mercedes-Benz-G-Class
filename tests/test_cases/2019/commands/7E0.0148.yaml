@@ -1,5 +1,5 @@
 command_id: 7E0.0148
 test_cases:
-- response: '7E803414822'
-  expected_values:
+- expected_values:
     TP_C: 13.33333
+  response: '7E803414822'

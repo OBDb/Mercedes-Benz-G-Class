@@ -1,11 +1,11 @@
 command_id: DB33.0133
 test_cases:
-- response: 18DAF15803413361
-  expected_values:
+- expected_values:
     BARO: 97
-- response: 18DAF15803413364
-  expected_values:
+  response: 18DAF15803413361
+- expected_values:
     BARO: 100
-- response: 18DAF15803413365
-  expected_values:
+  response: 18DAF15803413364
+- expected_values:
     BARO: 101
+  response: 18DAF15803413365
