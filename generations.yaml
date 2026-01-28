@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
+
 generations:
   - name: "First Generation (W460)"
     start_year: 1979
