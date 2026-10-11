@@ -1,10 +1,10 @@
 { "commands": [
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "2001"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "GCLASS_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
-    {"id": "GCLASS_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
-    {"id": "GCLASS_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
-    {"id": "GCLASS_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 1000, "mul": 0.05625, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+    {"id": "GCLASS_TIRE_FL_VSS", "path": "Movement", "fmt": {           "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "GCLASS_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "GCLASS_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 32, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "GCLASS_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 48, "len": 16, "max": 655.34, "div": 100, "nullmax": 655.34, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "2002"}, "freq": 0.25, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
